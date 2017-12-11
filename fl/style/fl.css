@@ -1,0 +1,104 @@
+﻿.border-srech input{ width:200px; height:30px;float:left;padding: 0;}
+
+.button-srech input{ width:80px; height:30px;float:left;}
+
+.divcss5-left{width:300px;height:30px;} 
+
+a{
+	text-decoration: none;
+}
+
+a:link {color: black}
+
+a:visited {color: blue}
+
+a:hover {color: purple;background:#3091f3;}
+
+a:active {color: #0000CD}
+
+body{
+  height:800px;
+  font-family:"微软雅黑"；
+  font-side:18px;
+  background:#fdefce;
+}
+
+hr{
+  margin-bottom: 25px;
+  width: 90%;
+  text-align: center;
+}
+
+#header{
+  height:28px;
+  width:auto;
+}
+
+#header_left{
+
+}
+
+#header_right{
+  float: right;
+}
+
+#srechBox{
+  width:auto;
+  height:30px;
+}
+
+#subBox{
+  width:1330px;
+  height:60px;
+}
+
+#nav{
+  width:1330px;
+  height:60px;
+}
+
+#container_box{
+  width:1330px;
+  height:700px;
+}
+
+#container_line_box{
+  width:100%;
+  height:330px;
+}
+
+#container_main_box{
+  float:left;
+  width:20%;
+  height:330px;
+  text-align:center;
+}
+
+#container_main_box p{
+  margin:8px 0;
+  font-size: 20px;
+  font-family: 楷体;
+}
+
+.nav li{
+  background-color:#AEEEEE;
+  padding: 8px 15px;
+  float: left;
+  list-style: none;
+  color:#fff;}
+
+#nav li{
+  background-color:#FF5869;
+  padding: 8px 15px;
+  float: left;
+  list-style: none;
+  color:#fff;
+}
+
+#footer{
+  font-family: 宋体;
+  font-size: 14pt;
+  text-align:center;
+  height:38px;
+  width:1330px;
+}
