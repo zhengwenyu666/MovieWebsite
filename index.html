@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<style type="text/css">
+		body{
+			font-size: 25px;
+			font-family: "楷体";
+			font-color:red;
+			background-image: url("images/dl.jpg");
+			background-size:cover;
+		}
+		#main_box{
+			margin: 160px auto;
+			text-align: center;
+		}
+		h1{
+		}
+		input{
+			width: 200px;
+			height: 22px;
+		}
+		#input_box{
+			font-family: "楷体";
+			font-size: 20px;
+			width: 80px;
+			height: 26px;
+			margin-top: 20px;
+			margin-left: 30px;
+			border: 0px;
+			padding:0px;
+			background:#daebfb;
+		}
+	</style>
+	<script type="text/javascript">
+	function checkpost(){
+		if(document.forms[0].name.value=="zhengwenyu"&&document.forms[0].pw.value=="123456")
+		{
+			alert("登录成功，页面即将跳转！")
+			window.location.href="yszx/yszx.html";
+			return false;
+		}else{
+			alert("用户名或密码不正确！")
+			return false;
+		}
+	}
+	</script>
+</head>
+<body>
+	<div id="main_box">
+		<h1>登录(Login)</h1>
+        <form method="post" action="" name="myform">
+        	<p>
+        		<label for="name">账号:</label><input type="text" pattern="^\w{6,12}$" name="name" id="name" placeholder="请输入您的用户名"/>
+			</p>
+			<p>
+				<label for="pw">密码:</label><input type="password" name="pw" id="pw" placeholder="请输入您的密码"/>
+			</p>
+			<p>
+        		<input id="input_box" type="submit" value="登录" onclick="return checkpost()"/>
+        		<input id="input_box" type="button" value="注册" onclick="javascript:window.location.href='zc.html'"/>
+        	</p>
+        </form>
+	</div>
+</body>
+</html>
