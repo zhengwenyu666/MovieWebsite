@@ -1,0 +1,182 @@
+﻿body{
+  font-size:20px;
+  font-family: '\534E\6587\5F69\4E91';
+  color:#436EEE;
+  background:#f0efdb;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {color: #0b19d0}
+
+a:visited {color: #8b0bd0}
+
+a:hover {color:#4e1084;background:#8df665;}
+
+a:active {color: #0000CD}
+
+h1{
+  text-align: center;
+  width: 100%;
+  font-family: 楷体;
+  font-size: 48pt;
+  color:#9310c6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p.headp{
+  text-indent: 1em;
+  font-size: 30px;
+  color:black;
+  font-family: 黑体;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+p.firstp{
+  text-indent:1em;
+  font-size: 18px;
+  font-family: 楷体;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+p.contentp1{
+  color: #8c13d8;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 楷体;
+  text-align: center;
+}
+
+p.contentp2{
+  color: #1C1C1C;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 楷体;
+  text-indent: 2.5em;
+  text-align: left;
+}
+
+p.marqueep1{
+  font-size: 20px;
+  font-family: 楷体;
+}
+
+p.marqueep2{
+  text-indent: 2em;
+  font-family: 楷体;
+  font-size: 20px;
+}
+
+span.lispan{
+  color: #B23AEE;
+}
+
+.nav li{
+  margin-top: 12px;
+  padding: 8px 15px;
+  float: left;
+  list-style: none;
+}
+
+.border-srech input{ width:200px; height:30px;float:left;padding: 0;}
+
+.button-srech input{ width:80px; height:30px;float:left;}
+
+.divcss5-left{width:300px;height:30px;} 
+
+#top_main_box{
+}
+
+#topBox{
+  height: 600px;
+  width: 100%;
+}
+
+#header{
+  font-size: 18px;
+  height:28px;
+  width:100%;
+}
+
+#header_left{
+}
+
+#header_right{
+  float: right;
+}
+
+#srechBox{
+  width:100%;
+  height:30px;
+}
+
+#bg_box{
+  height: 700px;
+  background-image: url('../images/bottom_img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#subBox img{
+  z-index: -1;
+  position: absolute;
+}
+
+#subBox{
+  width:100%;
+  height:60px;
+}
+
+#content{
+  width:1330px;
+  height:404px;
+}
+
+#content_1{
+  float: left;
+  width:254px;
+  height:400px;
+}
+
+#content_2{
+  float: left;
+  width:254px;
+  height:400px;
+}
+
+#content_3{
+  float: left;
+  width:254px;
+  height:400px;
+}
+
+#content_4{
+  margin-left: -15px;
+  margin-right: : 10px;
+  float: left;
+  width:254px;
+  height:400px;
+}
+
+#content_5{
+  color: black;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  width:310px;
+  height:398px;
+}
+
+#footer{
+  color: black;
+  text-align: center;
+  font-family: 宋体;
+  font-size: 14pt;
+  height:24px;
+  width:100%;
+}

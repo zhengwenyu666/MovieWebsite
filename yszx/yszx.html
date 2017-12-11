@@ -1,0 +1,171 @@
+﻿<!doctype html>
+<html>
+
+<head>
+  <meta charset="uft-8">
+  <title>影视&资讯</title>
+  <link rel="stylesheet" type="text/css" href="style/yszx.css">
+  <link rel="stylesheet" type="text/css" href="style/swiper.min.css">
+
+  <style>
+    
+    .swiper-container{
+        width: 1330px;
+        height: 450px;
+    }
+
+    .swiper-wrapper_left{
+    	float: left;
+    	background: #fdefce;
+    }
+
+    .swiper-wrapper_right{
+    	float: left;
+    	background: #fdefce;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+   
+</head>
+
+<body>
+ 
+<div id="top_main_box">
+    <div id="header">
+      <span id="head_left">
+      <a href="https://movie.douban.com/">豆瓣电影</a><span>|</span>
+      <a href="https://www.qidian.com/">起点读书</a><span>|</span>
+      <a href="http://www.youku.com/">优酷影视</a><span>|</span>
+      <a href="http://music.163.com/">网易云音乐</a><span>|</span>
+      <a href="../gywm.html" target="_blank">关于我们</a>
+      </span>
+      <span id="header_right">
+      <a href="#">个人中心</a><span>|</span>
+      <a href="../index.html">登录</a><span>|</span>
+      <a href="../zc.html">注册</a>
+      </span>
+    </div>
+</div>
+<div class="swiper-container">
+	<div class="swiper-wrapper_left" style="width: 114px;height: 450px;z-index: 1;background:#f0efdb;"></div>
+    <div class="swiper-wrapper" style="width: 1112px;height: 450px;float: left;z-index: -1;margin-left: -12px;">
+        <div class="swiper-slide"><img src="images/1_1.jpg" width=98% height=100%></div>
+        <div class="swiper-slide"><img src="images/2_2.jpg" width=98% height=100%></div>
+        <div class="swiper-slide"><img src="images/3_3.jpg" width=98% height=100%></div>
+        <div class="swiper-slide"><img src="images/4_4.jpg" width=98% height=100%></div>
+        <div class="swiper-slide"><img src="images/5_5.jpg" width=98% height=100%></div>
+    </div>
+    <div class="swiper-wrapper_right" style="width: 116px;height: 450px;z-index: 1;background:#f0efdb;"></div>
+</div>
+
+    <!-- Swiper JS -->
+    <script src="swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2980,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+
+<div id="bg_box">
+<br/>
+<h1>太师三兄弟影评网</h1>
+
+<div id="srechBox" align="center"> 
+  <div class="divcss5-left">
+    <form action="#" method="get">
+    <p class="border-srech"><input type="text" placeholder="电影，电视剧，动漫......"/></p>
+    <p class="button-srech"><input type="submit" value="搜索"/></p>
+    </form>
+  </div>
+</div>
+<br/>
+<div id="subBox">
+<ul class="nav" style="margin: 0;padding-left: 0;">
+      <li><span class="lispan">影视&资讯</span></li>
+      <li><a href="../phb/phb.html">排行榜</a></li>
+      <li><a href="../fl/fl_1.html">分类</a></li>
+      <li><a href="../yp/yp_1.html">影评</a></li>
+</ul>
+</div>
+
+<div id="content">
+  <div id="content_1">
+    <p class="contentp1">本周排行榜</p>
+    <p class="contentp2"><a href="../dy/ls3_zshh.html">1.雷神3:诸神黄昏</a></p>
+    <p class="contentp2"><a href="../dy/zylm.html">2.正义联盟</a></p>
+    <p class="contentp2"><a href="../dy/agzz.html">3.阿甘正传</a></p>
+    <p class="contentp2"><a href="../dy/xxdtq.html">4.羞羞的铁拳</a></p>
+    <p class="contentp2"><a href="../dy/zl2.html">5.战狼Ⅱ</a></p>
+  </div>
+  <div id="content_2">
+    <p class="contentp1">本月排行榜</p>
+    <p class="contentp2"><a href="../dy/xxdtq.html">1.羞羞的铁拳</a></p>
+    <p class="contentp2"><a href="../dy/bwbj.html">2.霸王别姬</a></p>
+    <p class="contentp2"><a href="../dy/clzjxs.html">3.初恋这件小事</a></p>
+    <p class="contentp2"><a href="../dy/jqrzdy.html">4.机器人总动员</a></p>
+    <p class="contentp2"><a href="../dy/dmkj.html">5.盗梦空间</a></p>
+  </div>
+  <div id="content_3">
+    <p class="contentp1" style="text-indent: -1em;">推荐榜</p>
+    <p class="contentp2"><a href="../dy/zl2.html">1.战狼Ⅱ</a></p>
+    <p class="contentp2"><a href="../dy/xxdtq.html">2.羞羞的铁拳</a></p>
+    <p class="contentp2"><a href="../dy/cmdsj.html">3.楚门的世界</a></p>
+    <p class="contentp2"><a href="../dy/jf.html">4.教 父</a></p>
+    <p class="contentp2"><a href="../dy/qyqx.html">5.千与千寻</a></p>
+  </div>
+  <div id="content_4">
+    <p class="contentp1">即将上映</a></p>
+    <p class="contentp2"><a href="">1.勇往直前</a></p>
+    <p class="contentp2"><a href="">2.假如王子睡着了</a></p>
+    <p class="contentp2"><a href="">3.帕丁顿熊2</a></p>
+    <p class="contentp2"><a href="">4.暴雪将至</a></p>
+    <p class="contentp2"><a href="">5.恐袭波士顿</a></p>
+  </div>
+  <div id="content_5">
+    <marquee direction="up" behavior="scroll" loop="-1" hspace="6" vspace="4" scrollamount="2" scrolldelay="0" width="280px" height="350px">
+      <p class="marqueep1">尊敬的游客朋友您好：</p>
+      <p class="marqueep2">欢迎访问“太师三兄弟影评网”，本网站致力于为您提供最全面、最新颖的影视资讯信息，并致力于将本网站打造为更加优秀的影视评论网站，在此，我们也衷心的希望您可以为我们的发展、建设提供有利的信息。</p>
+        <p class="marqueep2">希望您观影愉快！</p>
+      <br/><br/>
+      <p class="marqueep1">关于网站的维护声明：</p>
+      <p class="marqueep2">由于本网站成立时间较短，在网页制作与排版方面仍存在一定的问题，因此，本网站将会进行不定期的更新与修补，希望众多游客朋友们可以谅解！</p>
+    </marquee>
+  </div>  
+</div>
+
+<div id="footer">
+  <p style="margin-top: 5px;margin-bottom: 1px">Copyright&copy;&nbsp;2017&nbsp;太师三兄弟工作室</p>
+</div>
+
+</div>
+</body>
+                                      
+</html>
