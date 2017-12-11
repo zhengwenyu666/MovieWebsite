@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 <head>
-	<meat charset="uft-8">
-	<title>×¢²á</title>
+	<meat http-equiv="Content-Type" content="text/html; charset="uft-8">
+	<title>æ³¨å†Œ</title>
 	<style type="text/css">
 	body{
 		font-size: 18px;
@@ -28,10 +28,10 @@
 	function checkpost(){
 		if(document.forms[0].userid.value==""&&document.forms[0].pass.value=="")
 		{
-			alert("ÓÃ»§Ãû»òÃÜÂë²»ÄÜÎª¿Õ£¡")
+			alert("ç”¨æˆ·åæˆ–å¯†ç ä¸èƒ½ä¸ºç©ºï¼")
 			return false;
 		}else{
-			alert("×¢²á³É¹¦£¬Ò³Ãæ¼´½«Ìø×ª£¡")
+			alert("æ³¨å†ŒæˆåŠŸï¼Œé¡µé¢å³å°†è·³è½¬ï¼")
 			window.location.href="yszx/yszx.html";
 			return false;
 		}
@@ -40,57 +40,57 @@
 </head>
 <body>
 <div id="container">
-	<h1>»áÔ±×¢²á</h1>
+	<h1>ä¼šå‘˜æ³¨å†Œ</h1>
 	<div id="content_box">
 	<form>
 	<p>
-	ÕËºÅ:<input type="text" pattern="^\w{6,12}$" requir autofocus name="userid" id="userid" placeholder="ÄúµÄÕËºÅ£¨6µ½12Î»Ó¢ÎÄ£©">
+	è´¦å·:<input type="text" pattern="^\w{6,12}$" requir autofocus name="userid" id="userid" placeholder="æ‚¨çš„è´¦å·ï¼ˆ6åˆ°12ä½è‹±æ–‡ï¼‰">
 	</p>
 	<p>
-	ÃÜÂë:<input type="password" required name="pass" id="pass" placeholder="ÄúµÄÃÜÂë">
+	å¯†ç :<input type="password" required name="pass" id="pass" placeholder="æ‚¨çš„å¯†ç ">
 	</p>
 	<p>
-	ÐÔ±ð:<input type="radio" name="sex" value="ÄÐ" checked>ÄÐ
-	<input type="radio" name="sex" value="Å®">Å®
+	æ€§åˆ«:<input type="radio" name="sex" value="ç”·" checked>ç”·
+	<input type="radio" name="sex" value="å¥³">å¥³
 	</p>
 	<p>
-	°®ºÃ:<input type="checkbox" name="like" value="ÒôÀÖ" checked>ÒôÀÖ
-	<input type="checkbox" name="like" value="µçÓ°">µçÓ°
-	<input type="checkbox" name="like" value="ÉÏÍø">ÉÏÍø
-	<input type="checkbox" name="like" value="ÀºÇò">ÀºÇò
-	<input type="checkbox" name="like" value="¶¯Âþ">¶¯Âþ
+	çˆ±å¥½:<input type="checkbox" name="like" value="éŸ³ä¹" checked>éŸ³ä¹
+	<input type="checkbox" name="like" value="ç”µå½±">ç”µå½±
+	<input type="checkbox" name="like" value="ä¸Šç½‘">ä¸Šç½‘
+	<input type="checkbox" name="like" value="ç¯®çƒ">ç¯®çƒ
+	<input type="checkbox" name="like" value="åŠ¨æ¼«">åŠ¨æ¼«
 	</p>
 	<p>
-	Ö°Òµ:<select name="salary">
-		<option value="Õþ¸®Ö°Ô±">Õþ¸®Ö°Ô±</option>
-		<option value="¹¤³ÌÊ¦">¹¤³ÌÊ¦</option>
-		<option value="½ÌÊ¦">½ÌÊ¦</option>
-		<option value="Ò½Éú">Ò½Éú</option>
-		<option value="Ñ§Éú">Ñ§Éú</option>
-		<option value="°×Áì">°×Áì</option>
-		<option value="IT´óÉñ">IT´óÉñ</option>
-		<option value="¹¤ÈË">¹¤ÈË</option>
-		<option value="ÎÞÒµ">ÎÞÒµ</option>
+	èŒä¸š:<select name="salary">
+		<option value="æ”¿åºœèŒå‘˜">æ”¿åºœèŒå‘˜</option>
+		<option value="å·¥ç¨‹å¸ˆ">å·¥ç¨‹å¸ˆ</option>
+		<option value="æ•™å¸ˆ">æ•™å¸ˆ</option>
+		<option value="åŒ»ç”Ÿ">åŒ»ç”Ÿ</option>
+		<option value="å­¦ç”Ÿ">å­¦ç”Ÿ</option>
+		<option value="ç™½é¢†">ç™½é¢†</option>
+		<option value="ITå¤§ç¥ž">ITå¤§ç¥ž</option>
+		<option value="å·¥äºº">å·¥äºº</option>
+		<option value="æ— ä¸š">æ— ä¸š</option>
 	     </select>
 	</p>
 	<p>
-	µç×ÓÓÊÏä:<input type="email" required name="email" placeholder="ÄúµÄµç×ÓÓÊÏä">
+	ç”µå­é‚®ç®±:<input type="email" required name="email" placeholder="æ‚¨çš„ç”µå­é‚®ç®±">
 	</p>
 	<p>
-	ÉúÈÕ:<input type="date" min="1980-01-01" max="2017-10-01" name="birthday" id="birthday" value="2000-01-01">
+	ç”Ÿæ—¥:<input type="date" min="1980-01-01" max="2017-10-01" name="birthday" id="birthday" value="2000-01-01">
 	</p>
 	<p>
-	²©¿ÍµØÖ·:<input type="url" name="blog" placeholder="ÄúµÄ²©¿ÍµØÖ·" id="blog">
+	åšå®¢åœ°å€:<input type="url" name="blog" placeholder="æ‚¨çš„åšå®¢åœ°å€" id="blog">
 	</p>
 	<p>
-	ÄêÁä:<input type="number" name="age" id="age" value="18" autocomplete="off" placeholder="ÄúµÄÄêÁä">
+	å¹´é¾„:<input type="number" name="age" id="age" value="18" autocomplete="off" placeholder="æ‚¨çš„å¹´é¾„">
 	</p>
 	<p style="margin-bottom: 10px;">
-	¸öÈË¼ò½é:<textarea name="think" cols="40" rows="2" style="width: 417px;height: 56px;"></textarea>
+	ä¸ªäººç®€ä»‹:<textarea name="think" cols="40" rows="2" style="width: 417px;height: 56px;"></textarea>
 	</p>
 	<p>
-	<input type="submit" name="button" value="Ìá½»" style="margin-left: 130px;" onclick="return checkpost()"/>
-	<input type="reset" name="reset" value="ÖØÐ´" style="margin-left: 30px;"/>
+	<input type="submit" name="button" value="æäº¤" style="margin-left: 130px;" onclick="return checkpost()"/>
+	<input type="reset" name="reset" value="é‡å†™" style="margin-left: 30px;"/>
 	</p>
 </form>
 </p>
